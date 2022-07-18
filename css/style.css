@@ -1,0 +1,289 @@
+.home
+{
+    background-image: url(imgs/bg-image-28.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+@media screen and (max-width:600px) {
+   
+    .arrows{
+        display: none;
+    }
+    .list-s{
+        flex-wrap: wrap;
+    }
+    .service-list{
+        flex-wrap: wrap;
+    }
+    
+}
+
+body{
+    scroll-behavior: auto !important;
+}
+
+#main-nav {
+    background: transparent;
+    transition: 2s;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 10px 15px;
+  
+  
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+  }
+  
+.navbar-toggler-icon
+{
+    color: white;
+}
+.navbar-toggler
+{
+    color: white;
+}
+.social-media{
+    border-left: 1px solid white;
+}
+.navbar{
+    border-bottom: 1px solid white;
+}
+.slider
+{
+background-color: rgba(0,0,0,0.5);
+height: 100%;
+width: 100%;
+top: 0%;
+}
+.slider h1{
+    font-size: 62px;
+
+}
+.slider2 h1{
+    font-size: 62px;
+}
+.slider2
+{
+background-color: rgba(0,0,0,0.5);
+height: 100%;
+width: 100%;
+top: 0%;
+}
+.btn-read
+{
+    background-color: #00c3da;
+    border-color: #00c3da;
+}
+.btn-contact
+{
+    background-color: transparent;
+    border-color: white;
+}
+.btn-read:hover
+{
+    background-color:#05d3ea;
+    border-color: #05d3ea;
+}
+.btn-contact:hover
+{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.arrows{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.right{
+    border-top: 1px solid white;
+    
+}
+.arrows i:hover{
+    background-color: rgba(255, 255, 255, 0.596);
+    color: black;
+}
+
+.about{
+    padding: 70px 0;
+}
+.btn-more
+{
+    background-color: white;
+    color: black;
+    border: black;
+    border: solid 1px;
+}
+.btn-more:hover
+{
+    background-color: black;
+    color: white;
+    border: black;
+}
+    .content p::after
+    {
+    content: "A Graphic Designer.|";
+    animation: typing 2s linear 1s infinite alternate;
+    color: #05d3ea;
+}
+
+
+@keyframes typing {
+    0% {
+        content: "A|";
+    }
+
+    25% {
+        content: "Ap|";
+    }
+
+    50% {
+        content: "App|";
+    }
+
+    100% {
+        content: "Apps|";
+    }
+}
+
+
+.title h2 {
+    font-size: 6rem;
+    color: #f4f4f4;
+}
+
+
+
+.title h3 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.team1 {
+    padding: 60px 0;
+}
+
+.team {
+    position: relative;
+
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: none;
+    background-color: rgba(0, 195, 218, 0.9);
+
+}
+
+.team:hover .layer {
+    display: block;
+}
+
+.team-info {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+.service{
+    padding: 60px 0;
+    background-color: #787878;
+}
+.service-list{
+    list-style: none;
+    color: white;
+}
+.service-list2{
+    list-style: none;
+    color: white;
+}
+.service-list2 i{
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid white;
+    font-size: 10px;
+}
+.service h2{
+    color: #f4f4f4;
+    opacity: 0.1;
+    font-size: 5rem;
+}
+.service h3{
+font-size: 2.5rem;
+    color: white;
+}
+
+.title h6{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    padding-top: 110px;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+    transform: translateY(100%);
+}
+ .content2{
+    padding: 75px 100px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.testimonial{
+    padding: 50px 0;
+}
+.part5 h3
+{
+    font-size: 100px;
+}
+.dollar-sign
+{
+ font-size:small !important ; 
+ font-weight: 18px !important; 
+}
+
+.part6 h4
+
+{
+    font-size: 55px;
+    font-weight: 500;
+    
+}
+.part6 p
+{
+    color: #787878;
+    padding: 5px;
+}
+.pest
+{
+    font-size: 10px;
+}
+
+.contact {
+    padding: 50px 0;
+    overflow-x: hidden;
+}
+.inputs input{
+    border: 2px solid #eee;
+    height: 50px;
+}
